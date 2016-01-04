@@ -1,6 +1,4 @@
-var app = angular.module('miniRouting', ['ui.router']);
-
-app.config(function ($stateProvider, $urlRouterProvider) {
+angular.module('miniRouting',['ui.router']).config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
         .state('home', {
